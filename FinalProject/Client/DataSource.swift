@@ -7,3 +7,11 @@
 //
 
 import Foundation
+class DataSource{
+    
+    var data = [DataInformation]()
+    
+    // MARK: Singleton
+    static let sharedInstance = DataSource()
+    private init() {}
+}

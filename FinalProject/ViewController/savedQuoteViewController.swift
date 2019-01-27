@@ -7,3 +7,21 @@
 //
 
 import Foundation
+import UIKit
+
+class savedQuoteViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var labelAuthor: UILabel!
+    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var backButton: UIButton!
+    var quote: Quotes!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        label.text = "Quote about \(quote.category!)"
+        textView.text = quote.quote
+        labelAuthor.text = "By: \(quote.author!)"
+    }
+}
