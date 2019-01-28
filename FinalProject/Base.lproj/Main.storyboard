@@ -110,7 +110,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omO-Ws-pXz">
-                                <rect key="frame" x="136" y="589.33333333333337" width="98" height="20.333333333333371"/>
+                                <rect key="frame" x="16" y="589.33333333333337" width="343" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -126,7 +126,7 @@
                                 <color key="color" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </activityIndicatorView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="..." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pPm-hl-g2f">
-                                <rect key="frame" x="0.0" y="252.99999999999997" width="375" height="275.33333333333326"/>
+                                <rect key="frame" x="0.0" y="253" width="375" height="186"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -136,18 +136,18 @@
                         <constraints>
                             <constraint firstItem="guz-zR-yHZ" firstAttribute="leading" secondItem="62b-Ma-rPh" secondAttribute="leading" constant="136" id="Br5-gX-66P"/>
                             <constraint firstItem="omO-Ws-pXz" firstAttribute="top" secondItem="guz-zR-yHZ" secondAttribute="bottom" constant="105" id="EF7-sn-heO"/>
-                            <constraint firstItem="omO-Ws-pXz" firstAttribute="top" secondItem="pPm-hl-g2f" secondAttribute="bottom" constant="61" id="HP8-yH-H3C"/>
+                            <constraint firstItem="omO-Ws-pXz" firstAttribute="top" secondItem="pPm-hl-g2f" secondAttribute="bottom" constant="150.33333333333337" id="HP8-yH-H3C"/>
                             <constraint firstItem="QQ3-oO-JXo" firstAttribute="top" secondItem="omO-Ws-pXz" secondAttribute="bottom" constant="58.5" id="QFs-nh-Bon"/>
                             <constraint firstItem="2t6-mo-FAh" firstAttribute="leading" secondItem="62b-Ma-rPh" secondAttribute="leading" constant="16" id="SAZ-sI-obu"/>
                             <constraint firstItem="pPm-hl-g2f" firstAttribute="trailing" secondItem="62b-Ma-rPh" secondAttribute="trailing" id="TgB-1z-K59"/>
                             <constraint firstItem="62b-Ma-rPh" firstAttribute="trailing" secondItem="QQ3-oO-JXo" secondAttribute="trailing" constant="16" id="VnY-gT-hup"/>
                             <constraint firstItem="guz-zR-yHZ" firstAttribute="centerX" secondItem="pPm-hl-g2f" secondAttribute="centerX" constant="-5.5" id="WFP-Iy-gOd"/>
-                            <constraint firstItem="omO-Ws-pXz" firstAttribute="leading" secondItem="62b-Ma-rPh" secondAttribute="leading" constant="136" id="YqX-oS-wFb"/>
+                            <constraint firstItem="omO-Ws-pXz" firstAttribute="leading" secondItem="62b-Ma-rPh" secondAttribute="leading" constant="16" id="YqX-oS-wFb"/>
                             <constraint firstItem="62b-Ma-rPh" firstAttribute="bottom" secondItem="QQ3-oO-JXo" secondAttribute="bottom" constant="31" id="cYi-kd-5Ll"/>
                             <constraint firstItem="pPm-hl-g2f" firstAttribute="top" secondItem="2t6-mo-FAh" secondAttribute="bottom" constant="104" id="gMt-Nh-rvd"/>
                             <constraint firstItem="2t6-mo-FAh" firstAttribute="top" secondItem="62b-Ma-rPh" secondAttribute="top" constant="37" id="lrU-AC-ImH"/>
                             <constraint firstItem="pPm-hl-g2f" firstAttribute="leading" secondItem="62b-Ma-rPh" secondAttribute="leading" id="nLU-C6-PaS"/>
-                            <constraint firstItem="62b-Ma-rPh" firstAttribute="trailing" secondItem="omO-Ws-pXz" secondAttribute="trailing" constant="141" id="sLN-eJ-IA1"/>
+                            <constraint firstItem="62b-Ma-rPh" firstAttribute="trailing" secondItem="omO-Ws-pXz" secondAttribute="trailing" constant="16" id="sLN-eJ-IA1"/>
                             <constraint firstItem="QQ3-oO-JXo" firstAttribute="leading" secondItem="62b-Ma-rPh" secondAttribute="leading" constant="16" id="un7-lL-Llo"/>
                             <constraint firstItem="guz-zR-yHZ" firstAttribute="centerX" secondItem="2t6-mo-FAh" secondAttribute="centerX" constant="-5.5" id="y4w-eY-5Oz"/>
                         </constraints>
@@ -181,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Sd-aV-A3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="113.02816901408451"/>
+            <point key="canvasLocation" x="-0.80000000000000004" y="112.3152709359606"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R5J-x0-atD">
